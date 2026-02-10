@@ -58,3 +58,27 @@ The workflow is defined in `.github/workflows/daily-fetch.yml`. It runs automati
 - **Frontend**: HTML5, CSS3 (Variables & Animations), JavaScript (ES6+), Chart.js
 - **Backend**: Node.js (Fetch API)
 - **CI/CD**: GitHub Actions
+
+## 🔧 Troubleshooting
+
+### Netlify Deployment Issues
+
+If you encounter persistent login requests or authentication errors when deploying via CLI:
+
+1. **Link Site Manually**:
+    Instead of relying on auto-detection, explicitly link your project to a Netlify site ID:
+
+    ```bash
+    npx netlify link --id YOUR_SITE_ID
+    ```
+
+    Or create a `.netlify/state.json` file in your project root:
+
+    ```json
+    {
+      "siteId": "YOUR_SITE_ID"
+    }
+    ```
+
+2. **MCP Tool Usage**:
+    If using an AI agent with MCP, ensure the site ID is explicitly provided in the deployment parameters or that the `state.json` exists in the deployment directory.

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Rank Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card glass">
+            <div id="loading" class="loading">Loading...</div>
+            <div id="content" class="hidden">
+                <div class="header">
+                    <img id="avatar" src="" alt="User Avatar" class="avatar">
+                    <div class="user-info">
+                        <h1 id="username">Username</h1>
+                        <p id="realname" class="subtitle">Real Name</p>
+                    </div>
+                </div>
+
+                <div class="rank-container">
+                    <span class="label">Global Ranking</span>
+                    <div class="rank-value" id="ranking">---</div>
+                </div>
+
+                <div class="stats-grid" id="stats-grid">
+                    <!-- Stats will be injected here -->
+                </div>
+
+                <div class="footer">
+                    <p>Last updated: <span id="last-updated">---</span></p>
+                </div>
+            </div>
+            <div id="error" class="hidden error">
+                Failed to load data.
+            </div>
+
+            <div class="chart-container">
+                <canvas id="rankChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

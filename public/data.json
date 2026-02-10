@@ -1,0 +1,60 @@
+[
+  {
+    "username": "TKr0i3Zqog",
+    "ranking": 3166974,
+    "realName": "Samir",
+    "avatar": "https://assets.leetcode.com/users/TKr0i3Zqog/avatar_1736432066.png",
+    "stats": [
+      {
+        "difficulty": "All",
+        "count": 32,
+        "submissions": 34
+      },
+      {
+        "difficulty": "Easy",
+        "count": 24,
+        "submissions": 26
+      },
+      {
+        "difficulty": "Medium",
+        "count": 8,
+        "submissions": 8
+      },
+      {
+        "difficulty": "Hard",
+        "count": 0,
+        "submissions": 0
+      }
+    ],
+    "lastUpdated": "2026-02-10T02:54:26.935Z"
+  },
+  {
+    "timestamp": "2026-02-10T03:02:33.691Z",
+    "username": "TKr0i3Zqog",
+    "ranking": 3166974,
+    "realName": "Samir",
+    "avatar": "https://assets.leetcode.com/users/TKr0i3Zqog/avatar_1736432066.png",
+    "stats": [
+      {
+        "difficulty": "All",
+        "count": 32,
+        "submissions": 34
+      },
+      {
+        "difficulty": "Easy",
+        "count": 24,
+        "submissions": 26
+      },
+      {
+        "difficulty": "Medium",
+        "count": 8,
+        "submissions": 8
+      },
+      {
+        "difficulty": "Hard",
+        "count": 0,
+        "submissions": 0
+      }
+    ]
+  }
+]

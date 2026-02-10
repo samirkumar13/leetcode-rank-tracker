@@ -1,0 +1,12 @@
+{
+  "name": "leetcode-rank-tracker",
+  "version": "1.0.0",
+  "description": "Daily LeetCode rank tracker deployed on Netlify",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-rank.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

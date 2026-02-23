@@ -230,5 +230,34 @@
         "submissions": 0
       }
     ]
+  },
+  {
+    "timestamp": "2026-02-23T01:53:01.909Z",
+    "username": "TKr0i3Zqog",
+    "ranking": 3033934,
+    "realName": "Samir",
+    "avatar": "https://assets.leetcode.com/users/TKr0i3Zqog/avatar_1736432066.png",
+    "stats": [
+      {
+        "difficulty": "All",
+        "count": 34,
+        "submissions": 36
+      },
+      {
+        "difficulty": "Easy",
+        "count": 24,
+        "submissions": 26
+      },
+      {
+        "difficulty": "Medium",
+        "count": 10,
+        "submissions": 10
+      },
+      {
+        "difficulty": "Hard",
+        "count": 0,
+        "submissions": 0
+      }
+    ]
   }
 ]
